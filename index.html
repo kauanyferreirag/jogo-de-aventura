@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
-    <title>Jogo de aventura</title>
+    <title>Jogo de Aventura</title>
 </head>
 <body>
     <header>
+        <h1>🏹 Jogo de Aventura</h1>
         <p><strong>Autores:</strong> Kauany Ferreira Gonçalves,  
         Amabile Vitória De Oliveira Gonçalo,  
         Emanuela Marques Belasco,  
@@ -18,56 +16,20 @@
     </header>
 
     <main>
+        <!-- Início do jogo -->
         <div class="passo ativo" id="passo-0">
-            <img src="inteligencia.jpg" alt="Capa do jogo">
-            <p>Um dia, interessei-me pela obra "O código da Inteligência" de Augusto Cury com diversas reflexões sobre a mente humana em relação à gestão emocional 
-                e à inteligência multifocal, e resolvi capturar algumas essências dessa obra.</p>
-            <button class="btn-proximo" data-proximo="1">Gestão Emocional</button>
-            <button class="btn-proximo" data-proximo="2">Inteligência Multifocal</button>
+            <img src="floresta.jpg" alt="Entrada da floresta misteriosa">
+            <p>Você é um jovem aventureiro que acaba de chegar a uma floresta misteriosa.  
+               A lenda diz que dentro dela existe um tesouro escondido, mas também criaturas perigosas...</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na floresta</button>
+            <button class="btn-proximo" data-proximo="2">Seguir pelo rio</button>
         </div>
 
+        <!-- Floresta -->
         <div class="passo" id="passo-1">
-            <p>Gestão Emocional é assumir o controle sobre os pensamentos, ideias e fantasias que circulam na mente.</p>
-            <button class="btn-proximo" data-proximo="2">Seguir para a próxima reflexão.</button>
-            <button class="btn-proximo" data-proximo="6">Compreender o que é inteligência multifocal?</button>
-        </div>
-
-        <div class="passo" id="passo-2">
-            <p>É aprender a lidar com traumas e emoções negativas, inclusive durante crises emocionais.</p>
-            <button class="btn-proximo" data-proximo="3">Como entender as minhas ansiedades?</button>
-        </div>
-
-        <div class="passo" id="passo-3">
-            <p>É preciso reunir-se mentalmente com seus medos, inseguranças e angústias para compreendê-los e transformá-los.</p>
-            <button class="btn-proximo" data-proximo="4">Seguir em frente</button>
-        </div>
-
-        <div class="passo" id="passo-4">
-            <img src="obra.jpg" alt="Obra de Augusto Cury">
-            <p>Você decide continuar lendo sobre gestão emocional, ou inteligência Multifocal.</p>
-            <button class="btn-proximo" data-proximo="5">Gestão Emocional</button>
-            <button class="btn-proximo" data-proximo="1">Inteligência Multifocal</button>
-        </div>
-
-        <div class="passo" id="passo-5">
-            <p>No final da sua reflexão, verás que gestão emocional é assumir o controle sobre os pensamentos, ideias e fantasias que circulam na mente.</p>
-            <button class="btn-proximo" data-proximo="0">Retornar ao início</button>
-            <button class="btn-proximo" data-proximo="6">Saber sobre o tema inteligência multifocal</button>
-        </div>
-
-        <div class="passo" id="passo-6">
-            <p>Vai além do raciocínio lógico ou acadêmico: envolve autocrítica, empatia, criatividade, resiliência e consciência existencial.</p>
-            <button class="btn-proximo" data-proximo="2">Seguir os conceitos de gestão emocional</button>
-            <button class="btn-proximo" data-proximo="7">Compreender inteligência multifocal?</button>
-        </div>
-
-        <div class="passo" id="passo-7">
-            <p>É a capacidade de enxergar a vida sob diferentes perspectivas, conectando razão, emoção, memória e experiências.</p>
-            <button class="btn-proximo" data-proximo="4">Ver obra</button>
-            <button class="btn-proximo" data-proximo="0">Voltar ao início</button>
-        </div>
-    </main>
-
-    <script src="script.js"></script>
-</body>
-</html>
+            <img src="caverna.jpg" alt="Caverna sombria">
+            <p>Você avança pela floresta e encontra a entrada de uma caverna escura.  
+               Há sons estranhos vindo de dentro...</p>
+            <button class="btn-proximo" data-proximo="3">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="4">Dar a volta e seguir em frente</button>
+        </
